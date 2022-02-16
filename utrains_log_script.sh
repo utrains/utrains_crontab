@@ -10,4 +10,4 @@ if [ ! -d "$DIRECTORY" ]; then
   # Control will enter here if $DIRECTORY doesn't exist.
   mkdir /tmp/utrains_logs
 fi
-touch /tmp/utrains_logs/utrains_$(date +%b_%d_%Y_"%H-%M")
+touch /tmp/utrains_logs/utrains_$(date +"%b_%d_%Y_%H-%M")
