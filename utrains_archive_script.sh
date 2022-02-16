@@ -15,7 +15,7 @@ if [ -d "$DIR" ]; then
 
   MYDATE=$(date "+%b_%d_%Y_%H.%M.%S")
   mkdir utrains_arch_cron-$MYDATE
-  mv utrains_des_* utrains_arch_cron-$MYDATE
+  mv utrains_cron_logs_* utrains_arch_cron-$MYDATE
 
   zip -r utrains_cron_zip_$MYDATE.zip utrains_arch_cron-$MYDATE 
   
